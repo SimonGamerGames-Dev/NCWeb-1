@@ -1,4 +1,4 @@
-global$mysql; <!DOCTYPE html>
+<!--global$mysql; <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">

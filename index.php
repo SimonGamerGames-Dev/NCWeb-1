@@ -2,8 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/assets/css/main.css">
     <link rel="shortcut icon" href="/assets/images/nivocraft_2.png" type="image/x-icon">
@@ -13,7 +12,7 @@
 <!--- Navbar --->
 <header>
     <nav>
-        <a href="index.php">Start</a>
+        <a class="active" href="index.php">Start</a>
         <a href="angebote.php">Unser Angebot</a>
         <a href="blog.php">Hilfestellungen</a>
     </nav>
@@ -83,55 +82,86 @@
             </span>
         </div>
     </section>
-    <section class="produkte">
-        <h1>Was können wir euch bieten?</h1>
-        <h2>Wieso solltet ihr zu Nivocraft.de kommen?</h2>
-        <div class="container">
-            <img src="/assets/images/nivocraft_2.png" alt="">
-            <span>
-                <h1>Bla Bla Bla</h1>
-                <h2>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
-                    diam nonumy eirmod tempor invidunt ut labore et dolore<br>
-                    magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                </h2>
-            </span>
-        </div>
-        <div class="container">
-            <img  src="/assets/images/nivocraft_2.png" alt="">
-            <span>
-                <h1>Bla Bla Bla</h1>
-                <h2>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
-                    diam nonumy eirmod tempor invidunt ut labore et dolore<br>
-                    magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                </h2>
-            </span>
-        </div>
-        <div class="container">
-            <img src="/assets/images/nivocraft_2.png" alt="">
-            <span>
-                <h1>Bla Bla Bla</h1>
-                <h2>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,<br>
-                    diam nonumy eirmod tempor invidunt ut labore et dolore<br>
-                    magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-                </h2>
-            </span>
-        </div>
-    </section>
     <section class="meilensteine">
-
+        <h1>Unsere erfolge - Fakten und Zahlen</h1>
+        <span>
+            Diese Daten wurden zuletzt am <strong>02.07.2023</strong> aktualiesiert.
+        </span>
+        <div class="row">
+            <div class="box box01">
+                <img class="imagebox" src="/assets/images/nivocraft_2.png">
+                <h1>Lorem ipsum</h1>
+                <h2>
+                    1GB RAM
+                </h2>
+            </div>
+            <div class="box box02">
+                <img class="imagebox" src="/assets/images/nivocraft_2.png">
+                <h1>Lorem ipsum</h1>
+                <h2>
+                    1GB RAM
+                </h2>
+            </div>
+            <div class="box box03">
+                <img class="imagebox" src="/assets/images/nivocraft_2.png">
+                <h1>Lorem ipsum</h1>
+                <h2>
+                    1GB RAM
+                </h2>
+            </div>
+            <div class="box box04">
+                <img class="imagebox" src="/assets/images/nivocraft_2.png">
+                <h1>Lorem ipsum</h1>
+                <h2>
+                    1GB RAM
+                </h2>
+            </div>
+        </div>
     </section>
 </div>
-<!-- TrustBox widget - Micro Review Count -->
-<div class="trustpilot-widget" data-locale="de-DE" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="647debf77749a403afba6dec" data-style-height="24px" data-style-width="100%" data-theme="light" data-min-review-count="10" data-style-alignment="center">
-    <a href="https://de.trustpilot.com/review/cp.nivocraft.de" target="_blank" rel="noopener">Trustpilot</a>
-</div>
-<!-- End TrustBox widget -->
-<!-- TrustBox script -->
-<script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
-<!-- End TrustBox script -->
+<footer>
+    <div class="line">
+        <div class="rechtliches">
+            <span>
+                Rechtliches <br>
+            </span>
+            <a href="#">Impressum</a> <br>
+            <a href="#">Datenschutzerklärung</a> <br>
+            <a href="#">AGB</a> <br>
+            <a href="#">Widerrufsrichtlinien</a> <br>
+        </div>
+        <div class="sonstiges">
+            <span>
+                Sonstiges <br>
+            </span>
+            <a href="#">Unsere Dienste</a> <br>
+            <a href="#">Anmelden</a> <br>
+            <a href="#">Registrieren</a> <br>
+            <a href="#">Kundenpanel</a> <br>
+        </div>
+    </div>
+
+    <HR>
+
+    <!-- TrustBox widget - Micro Review Count -->
+    <div class="trustpilot-widget" data-locale="de-DE" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="647debf77749a403afba6dec" data-style-height="24px" data-style-width="100%" data-theme="dark" data-min-review-count="10" data-style-alignment="center">
+        <a href="https://de.trustpilot.com/review/cp.nivocraft.de" target="_blank" rel="noopener">Trustpilot</a>
+    </div>
+    <!-- End TrustBox widget -->
+    <!-- TrustBox script -->
+    <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+    <!-- End TrustBox script -->
+
+    <span>© 2023 Nivocraft.de</span>
+
+</footer>
+
+
+
+
+
+
+
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

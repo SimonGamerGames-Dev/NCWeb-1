@@ -52,6 +52,11 @@ header nav a {
     text-decoration: none;
 }
 
+header nav .active {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
 header nav a:hover {
     text-decoration: underline;
 }
@@ -202,7 +207,7 @@ header h1 {
 /* CP */
 .maincontent .cp {
     padding-top: 1px;
-    background-image: radial-gradient(#475f80 , #273444);
+    background-image: radial-gradient(#293c57 , #273444);
     padding-bottom: 20px;
 }
 
@@ -249,56 +254,147 @@ header h1 {
     text-decoration: underline;
 }
 
-/* Was können wir bieten? */
-.maincontent .produkte {
+/* Meilensteine */
+
+.maincontent .meilensteine {
+    background-color: var(--dark);
     padding-top: 1px;
-    background-image: radial-gradient(#5074a6 , #617287);
-    padding-bottom: 20px;
 }
 
-.maincontent .produkte h1 {
+.maincontent .meilensteine h1  {
     text-align: center;
     font-family: 'Poppins', sans-serif;
     color: white;
     font-size: 30px;
-    line-height: 10px;
 }
 
-.maincontent .produkte h2 {
+.maincontent .meilensteine span {
     text-align: center;
-    font-family: 'Poppins', sans-serif;
-    color: var(--white2);
-    font-weight: 500;
-    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    color: var(--gray);
+    font-size: 17px;
+}
+
+.maincontent .meilensteine span strong {
     font-style: italic;
 }
 
-.maincontent .produkte .container {
+.maincontent .meilensteine .row {
     display: flex;
-    justify-content: left;
-    margin-top: 3%;
+    box-sizing: border-box;
+    justify-content: space-between;
 }
 
-.maincontent .produkte .container img {
-    width: 16%;
-    border-radius: 30px;
-    margin-left: 10%;
+.maincontent .meilensteine .row .box {
+    border-radius: 10px;
+    background-color: transparent;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 40px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    transition-property:background-color;
+    transition-duration:1s;
+    position: relative;
 }
 
-.maincontent .produkte .container span {
-    margin-top: 3%;
+.maincontent .meilensteine .row .box .imagebox {
+    padding-top: 10px;
+    margin-bottom: 20px;
+    width: 75px;
+    align-items: center;
+    margin: auto;
+    display: block;
 }
 
-.maincontent .produkte .container h1 {
-    text-align: left;
-    margin-left: 50px;
+.maincontent .meilensteine .row .box h1 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--white);
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.maincontent .meilensteine .row .box h2 {
+    font-family: 'Lato', sans-serif;
+    color: var(--white2);
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: var(--gray-dark);
+    padding-top: 1px;
+}
+
+footer .line {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer span {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: var(--gray);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* ========================= */
+
+footer .rechtliches {
+    font-family: 'Lato', sans-serif;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+
+footer .rechtliches span {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+footer .rechtliches a {
+    color: var(--gray);
+    text-decoration: none;
+    line-height: 30px;
+}
+
+footer .rechtliches a:hover {
     text-decoration: underline;
 }
 
-.maincontent .produkte .container h2 {
-    text-align: left;
-    margin-left: 50px;
+/* ========================= */
+
+footer .sonstiges {
+    font-family: 'Lato', sans-serif;
+    margin-right: 20%;
+    margin-top: 30px;
 }
+
+footer .sonstiges span {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+footer .sonstiges a {
+    color: var(--gray);
+    text-decoration: none;
+    line-height: 30px;
+}
+
+footer .sonstiges a:hover {
+    text-decoration: underline;
+}
+
+
 
 /* Transition - Float */
 @keyframes float {
@@ -327,6 +423,9 @@ header h1 {
     .maincontent .vorteile .row .box04 {
         display: none;
     }
+    .maincontent .meilensteine .row .box04 {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1020px) {
@@ -352,7 +451,16 @@ header h1 {
     .maincontent .vorteile .row .box {
         margin: 0;
     }
+    .maincontent .meilensteine .row {
+        display: block;
+    }
+    .maincontent .meilensteine .row .box {
+        margin: 0;
+    }
     .maincontent .vorteile .row .box04{
+        display: block;
+    }
+    .maincontent .meilensteine .row .box04{
         display: block;
     }
     .maincontent .produkte .container img {
