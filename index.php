@@ -13,7 +13,7 @@
 <header>
     <nav>
         <a class="active" href="index.php">Start</a>
-        <a href="angebote.php">Unser Angebot</a>
+        <a href=angebote.php>Unser Angebot</a>
         <a href="blog.php">Hilfestellungen</a>
     </nav>
     <h1>Willkommen auf der Startseite von Nivocraft.de!</h1>
@@ -84,9 +84,11 @@
     </section>
     <section class="meilensteine">
         <h1>Unsere erfolge - Fakten und Zahlen</h1>
-        <span>
-            Diese Daten wurden zuletzt am <strong>02.07.2023</strong> aktualiesiert.
-        </span>
+        <div style="text-align: center;">
+            <span>
+                Diese Daten wurden zuletzt am <strong>02.07.2023</strong> aktualiesiert.
+            </span>
+        </div>
         <div class="row">
             <div class="box box01">
                 <img class="imagebox" src="/assets/images/nivocraft_2.png">
@@ -152,15 +154,11 @@
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
     <!-- End TrustBox script -->
 
-    <span>© 2023 Nivocraft.de</span>
+    <div style="text-align: center;">
+        <span>© 2023 Nivocraft.de</span>
+    </div>
 
 </footer>
-
-
-
-
-
-
 
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
