@@ -167,7 +167,6 @@ header h1 {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    border: #00B8D9 solid 2px;
     transition-property:background-color;
     transition-duration:1s;
     position: relative;
