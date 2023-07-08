@@ -55,12 +55,6 @@ body {
     font-size: 30px;
 }
 
-.maincontent .auswahl span {
-    font-family: 'Lato', sans-serif;
-    color: var(--gray);
-    line-height: 25px;
-}
-
 /* ====================================================== */
 /* ====================================================== */
 /* ====================================================== */
@@ -75,13 +69,6 @@ body {
     padding-top: 1px;
     background-image: radial-gradient(#3C4858 , #273444);
     padding-bottom: 20px;
-}
-
-.maincontent .produkte h1 {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    font-size: 30px;
 }
 
 .maincontent .produkte h2 {
@@ -127,15 +114,6 @@ body {
     margin-top: 30px;
     font-weight: 600;
 }
-
-.maincontent .produkte span {
-    color: var(--gray);
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    margin-top: 30px;
-    font-weight: 500;
-}
-
 .maincontent .produkte info {
     color: var(--warning);
     font-size: 24px;
@@ -149,4 +127,52 @@ body {
 
 .maincontent .produkte a:hover {
     text-decoration: underline;
+}
+
+
+/* ====================================================== */
+/* ====================================================== */
+/* ====================================================== */
+/* ====================================================== */
+/* ====================================================== */
+/* ====================================================== */
+/* ====================================================== */
+/* ====================================================== */
+/* ====================================================== */
+
+a {
+    color: var(--info);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+span {
+    color: var(--gray);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.maincontent .benutzung {
+    padding-top: 1px;
+    background-image: radial-gradient(#3C4858 , #273444);
+    padding-bottom: 20px;
+}
+
+.maincontent .preisliste {
+    padding-top: 1px;
+    background-image: radial-gradient(#293c57 , #273444);
+    padding-bottom: 20px;
 }

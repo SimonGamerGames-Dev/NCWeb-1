@@ -46,6 +46,7 @@
                 <a href="/angebote/kvm-amd.php">KVM - AMD Ryzen</a>
                 <a href="/angebote/kvm-intel.php">KVM - Intel i7 8700</a>
                 <a href="/angebote/gameserver.php">Gameserver</a>
+                <a href="/angebote/domains.php">Domains</a>
             </div>
             <h3>Aber hier noch ein paar Grundinformationen:</h3>
             <div style="text-align: center;">
