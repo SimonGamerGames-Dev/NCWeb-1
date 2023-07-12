@@ -12,9 +12,9 @@
 <body>
     <header>
         <nav>
-            <a href="index.php">Start</a>
+            <a href="/index.php">Start</a>
             <a class="active"  href="/angebote.php">Unser Angebot</a>
-            <a href="blog.php">Hilfestellungen</a>
+            <a href="/blog.php">Hilfestellungen</a>
         </nav>
         <h1>Willkommen auf der Startseite von Nivocraft.de!</h1>
     </header>

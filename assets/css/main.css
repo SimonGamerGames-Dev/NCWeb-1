@@ -364,6 +364,7 @@ footer .rechtliches a {
     color: var(--gray);
     text-decoration: none;
     line-height: 30px;
+    font-weight: 500;
 }
 
 footer .rechtliches a:hover {
