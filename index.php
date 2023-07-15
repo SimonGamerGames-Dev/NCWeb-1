@@ -60,9 +60,9 @@
     <img src="/assets/images/up.png" alt="">
     <h1>Ranzberger - Aufbau</h1>
     <span>
-            Diese Webseite befindet sich momentan im aufbau <br>
-            Weitere Informationen folgen!
-        </span>
+        Diese Webseite befindet sich momentan im aufbau <br>
+        Weitere Informationen folgen!
+    </span>
 </div>
 
 <video id="background-video" playsinline="playsinline" autoplay="autoplay" loop="loop" muted="muted">
