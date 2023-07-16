@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="shortcut icon" href="/assets/images/static.png" type="image/x-icon">
-    <title>Ranzberger - Aufbau</title>
+    <link rel="shortcut icon" href="/assets/images/up.png" type="image/x-icon">
+    <title>Nivocraft - Wartungsarbeiten</title>
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
@@ -41,6 +41,11 @@
         padding-top: 30px;
     }
 
+    a {
+        color: white;
+        font-size: 20px;
+    }
+
     img {
         border-radius: 15px;
         width: 150px;
@@ -58,15 +63,18 @@
 <body>
 <div class="box">
     <img src="/assets/images/up.png" alt="">
-    <h1>Ranzberger - Aufbau</h1>
+    <h1>Nivocraft - Wartungsarbeiten</h1>
     <span>
-        Diese Webseite befindet sich momentan im aufbau <br>
+        Wir bauen gerade eine neue Webseite auf... <br>
         Weitere Informationen folgen!
+        <br>
+        <br>
+        <a href="/impressum.php">Impressum</a>
     </span>
 </div>
 
 <video id="background-video" playsinline="playsinline" autoplay="autoplay" loop="loop" muted="muted">
-    <source src="/assets/images/video2.mp4" type="video/mp4">
+    <source src="/assets/images/video02.mp4" type="video/mp4">
 </video>
 </body>
 </html>
