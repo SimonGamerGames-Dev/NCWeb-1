@@ -26,24 +26,24 @@
         <span>Wir setzen neue standarts in sachen Server!</span>
         <div class="row">
             <div class="box">
-                <h1>Bla Bla Bla</h1>
+                <h1>99.99% Uptime</h1>
                 <div class="trennstrich"></div>
                 <span>
-                   Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                Jeder KVM-Server der bei uns gehostet wird hat eine Durchschnittliche Uptime von 99.99% 
                 </span>
             </div>
             <div class="box">
-                <h1>Bla Bla Bla</h1>
+                <h1>Garantierte Leistung</h1>
                 <div class="trennstrich"></div>
                 <span>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                Bei unseren KVM-Servern bekommst du 100% die Leistung die du bezahlst
                 </span>
             </div>
             <div class="box">
-                <h1>Bla Bla Bla</h1>
+                <h1>Starke DDos Protection</h1>
                 <div class="trennstrich"></div>
                 <span>
-                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                Wir schützen jeden Server mit einer Arbor DDos Protection die bis zu 750Gbit/s abwähren kann
                 </span>
             </div>
         </div>
